@@ -26,7 +26,7 @@ def run_command():
         timer.cancel()
         
         # Optional: Add a small sleep to prevent a tight loop in case of immediate subprocess termination
-        time.sleep(1)  # Adjust the sleep duration as necessary
+        time.sleep(60)  # Adjust the sleep duration as necessary
 
 # Run the command in a loop
 run_command()
